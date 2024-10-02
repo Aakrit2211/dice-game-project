@@ -29,10 +29,6 @@ footer{
  color: antiquewhite;
   padding: 40px;
 }
-.main div img{
-  max-height: 500px;
-  max-width: 500px;
-}
 .main{
   display: flex;
   justify-content: center;
@@ -50,14 +46,14 @@ footer{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    
+    width: 100%;
   }
   .header{
     font-size: 2.5rem;
   }
-  img{
-    height: 100px;
-    width: 100px;
+  img{  
+  width: 50%;
+  height: auto;
   }
 }
 #refresh-btn{
